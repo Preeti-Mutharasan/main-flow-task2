@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+  }
+
+  body {
+    background-image: url('01.jpg');
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+  nav .logo{
+    color: white;
+    font-size: 33px;
+    font-weight: bold;
+    line-height: 70px;
+    padding-left: 110px;
+  }
+  nav{
+    height: 70px;
+    background: #060628;
+    box-shadow: 0 3px 15px rgba(0,0,0,.4);
+    position: relative;
+    margin: 0%;
+  }
+  nav ol{
+    float: right;
+    margin-right: 30px;
+  }
+  nav ol li{
+    display: inline-block;
+  }
+  nav ol li a{
+    color: white;
+    display: block;
+    padding:  15px;
+    line-height: 40px;
+    font-size: 30px;
+    background: #060628;
+    transition: .5s;
+  }
+  nav ol li a:hover,
+  nav ol li a.active{
+    color: #23dbdb;
+  }
+.cont{
+    position: absolute; 
+    top: 40%;
+    right: 5%;
+    text-align: center; 
+    color: white;
+    font-size: 30px;
+}
+
+.dd-menu {
+    display: none; 
+    position: relative;
+    top: 100%; 
+    left: 0;
+    background-color: #060628; 
+    list-style: none;
+    margin: 0;
+    padding: 5px;
+    z-index: 1000;
+    width: 150px;
+    border-radius: 8px;
+}
+
+.dd-menu li a {
+    display: block;
+    position: relative;
+    padding: 10px;
+    text-decoration: none;
+    color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+.dd-menu li a:hover {
+    color: #00bcd4; 
+}
+
+.dropdown:hover .dd-menu {
+    display: block;
+}

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="logo.png" type="image/jpeg">
+  <title>Tourist Places in Asia</title>
+  <style>
+    /* General Styles */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-image: url('01.jpg');
+      color: #333;
+    }
+
+    header {
+      background-color: #060628;
+      color: #fff;
+      padding: 1rem;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+    }
+
+    .places-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      padding: 20px;
+    }
+
+    /* Card Styles */
+    .place-card {
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+      text-align: center;
+      width: 300px;
+      transition: transform 0.3s ease;
+    }
+
+    .place-card:hover {
+      transform: scale(1.05);
+    }
+
+    .place-card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .place-card h2 {
+      font-size: 1.5rem;
+      margin: 10px 0;
+    }
+
+    .place-card p {
+      padding: 0 10px 20px;
+      font-size: 0.9rem;
+      line-height: 1.4;
+    }
+
+    /* Footer Styles */
+    .footer {
+      background-color: #060628;
+      color: #fff;
+      text-align: center;
+      padding: 10px;
+      margin-top: 20px;
+    }
+    header a{
+        font-size: 20px;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        text-decoration: none;
+        color: #fff;
+        background-color: #2695e0;
+        padding: 5px 10px;
+        border-radius: 5px;
+
+    }
+  </style>
+</head>
+<body>
+  <header class="header">
+    <h1>Explore Asia</h1>
+    <a href="start.html">Back Home</a>
+  </header>
+  <main class="places-container">
+    <section class="place-card">
+      <img src="gc.jpg" alt="Great Wall of China">
+      <h2>Great Wall of China</h2>
+      <p>An iconic structure stretching over 13,000 miles, showcasing China’s ancient architectural brilliance.</p>
+    </section>
+    <section class="place-card">
+      <img src="tj.webp" alt="Taj Mahal, India">
+      <h2>Taj Mahal, India</h2>
+      <p>A symbol of love and one of the Seven Wonders of the World, located in Agra, India.</p>
+    </section>
+    <section class="place-card">
+      <img src="mf.webp" alt="Mount Fuji, Japan">
+      <h2>Mount Fuji, Japan</h2>
+      <p>Japan's tallest peak and a sacred site, offering stunning views and a serene atmosphere.</p>
+    </section>
+    <section class="place-card">
+      <img src="hb.jpg" alt="Halong Bay, Vietnam">
+      <h2>Halong Bay, Vietnam</h2>
+      <p>A UNESCO World Heritage site known for its emerald waters and towering limestone islands.</p>
+    </section>
+    <section class="place-card">
+        <img src="bl.jpg" alt="Bali, Indonesia">
+        <h2>Bali, Indonesia</h2>
+        <p>Bali, the "Island of the Gods," is famed for its stunning beaches, lush rice terraces, and vibrant culture. From ancient temples to tranquil Ubud, it offers a perfect mix of adventure and relaxation. With breathtaking sunsets and warm hospitality, Bali is a tropical paradise.</p>
+    </section>
+    <section class="place-card">
+        <img src="mal.webp" alt="Maldives">
+        <h2>Maldives</h2>
+        <p>Crystal-clear waters, overwater villas, and incredible marine life make it a luxury retreat.</p>
+    </section>
+    <section class="place-card">
+        <img src="ph.jpg" alt="Phuket, Thailand">
+        <h2>Phuket, Thailands</h2>
+        <p>Phuket, Thailand's largest island, is renowned for its stunning beaches, crystal-clear waters, and vibrant nightlife. From cultural landmarks like the Big Buddha to thrilling water sports, it offers a perfect mix of relaxation and adventure.</p>
+    </section>
+  </main>
+  <footer class="footer">
+   
+  </footer>
+</body>
+</html>

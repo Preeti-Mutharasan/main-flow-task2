@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tourist Places in Africa</title>
+  <link rel="icon" href="logo.png" type="image/jpeg">
+  <style>
+    /* General Styles */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-image: url('01.jpg');
+      color: #333;
+    }
+
+    header {
+      background-color: #060628;
+      color: #fff;
+      padding: 1rem;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+    }
+
+    .places-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      padding: 20px;
+    }
+
+    /* Card Styles */
+    .place-card {
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+      text-align: center;
+      width: 300px;
+      transition: transform 0.3s ease;
+    }
+
+    .place-card:hover {
+      transform: scale(1.05);
+    }
+
+    .place-card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .place-card h2 {
+      font-size: 1.5rem;
+      margin: 10px 0;
+    }
+
+    .place-card p {
+      padding: 0 10px 20px;
+      font-size: 0.9rem;
+      line-height: 1.4;
+    }
+
+    /* Footer Styles */
+    .footer {
+      background-color: #060628;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      color: white;
+      text-align: center;
+      padding: 10px 0;
+    }
+    header a{
+        font-size: 20px;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        text-decoration: none;
+        color: #fff;
+        background-color: #2695e0;
+        padding: 5px 10px;
+        border-radius: 5px;
+
+    }
+  </style>
+</head>
+<body>
+  <header class="header">
+    <h1>Explore Africa</h1>
+    <a href="start.html">Back Home</a>
+  </header>
+  <main class="places-container">
+    <section class="place-card">
+      <img src="Mount_Kilimanjaro.jpg" alt="Mount Kilimanjaro, Tanzania">
+      <h2>Mount Kilimanjaro</h2>
+      <p>Mount Kilimanjaro, located in Tanzania, is the tallest mountain in Africa at 5,895 meters. Known as the "Roof of Africa," it is a dormant volcano with three cones and attracts climbers worldwide for its breathtaking views and rich biodiversity.</p>
+    </section>
+    <section class="place-card">
+      <img src="cape-town.jpg" alt="Cape Town, South Africa">
+      <h2>Cape Town, South Africa</h2>
+      <p>Cape Town, located in South Africa, is a vibrant coastal city known for its stunning Table Mountain, beautiful beaches, and rich cultural heritage. It is a popular tourist destination, offering landmarks like Robben Island and the Cape of Good Hope.</p>
+    </section>
+    <section class="place-card">
+      <img src="mf.webp" alt="Marrakech, Morocco">
+      <h2>Marrakech, Morocco</h2>
+      <p>Marrakech, a historic city in Morocco, is famed for its vibrant souks, stunning palaces, and the bustling Jemaa el-Fnaa square. It offers a rich blend of culture, history, and architecture, surrounded by the beauty of the Atlas Mountains.</p>
+    </section>
+  </main>
+  <footer class="footer">
+    
+  </footer>
+</body>
+</html>
